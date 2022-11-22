@@ -1,3 +1,4 @@
 # Henry-Website
 A advanced and resposive site about me
-not-complete
+
+#NOT COMPLETE (NOT RESPONSIVE 100%)
