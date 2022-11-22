@@ -1,0 +1,264 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile {
+    display: none;
+}
+
+header {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Images/Background/modern.png);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+header p {
+    margin-top: 0px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+header span {
+    color: lightgreen;
+}
+
+.introduction {
+    padding: 20px 10vh 20px 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-text {
+    margin-right: 40px;
+}
+
+.introduction h2 {
+    color: #484a46;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.introduction p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.introduction img {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 10px;
+    margin-left: 5vh;
+}
+
+.stats {
+    background-image: url(../Images/Background/landing.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.s-container-1, .s-container-2, .s-container-3 {
+    padding: 10px;
+    margin: 15px;
+    width: 50vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 2px 10px;
+}
+
+.stats i {
+    margin-top: 5px;
+    font-size: 70px;
+    color: rgb(56, 56, 56);
+} 
+
+.stats h2 {
+    margin: 5px 0px 0px 0px;
+    font-size: 50px;
+    color: rgb(15, 199, 15)
+}
+
+.stats span {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #343533;
+    text-transform: uppercase;
+}
+
+.github {
+    padding: 20px 10vh 20px 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-text {
+    margin-right: 40px;
+}
+
+.github h2 {
+    color: #484a46;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.github p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.github button {
+    border: 1px solid black;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 10px;
+    width: 25vh;
+    height: 7vh;
+    background-color: rgb(38, 228, 38);
+    font-size: 16px;
+    box-shadow: 0px 0px 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.github img {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 15px;
+    margin-left: 5vh;
+}
+
+.languages {
+    padding: 30px;
+    background-image: url(../Images/Background/modern.png);
+    background-repeat: no-repeat;
+}
+
+.l-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.l-title h2 {
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 2px 0px 10px 0px;
+}
+
+.l-containers {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+}
+
+.l-container-1, .l-container-2, .l-container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    width: 70vh;
+    height: 42vh;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 0px 0px 40px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h2 {
+    margin-bottom: 0px;
+}
+
+footer p {
+    font-size: 17px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .introduction, .github {
+        padding: 30px;
+    }
+
+    .stats {
+        padding: 10px;
+    }
+
+    .s-container-1, .s-container-2, .s-container-3 {
+        margin: 10px;
+    }
+
+    .s-container-1 span, .s-container-2 span, .s-container-3 span {
+        font-size: 15px;
+    }
+
+    .github button {
+        margin-top: 0px;
+        width: 27vh;
+        height: 8vh;
+    }
+
+    .l-container-1, .l-container-2, .l-container-3 {
+        width: 70vh;
+        height: 80vh;
+    }
+
+    .l-container-1, .l-container-2 p, .l-container-3 p {
+        text-align: center;
+        margin-top: 12;
+    }
+
+    .l-container-1 {
+        width: 35vh;
+    }
+
+    .l-container-1 img {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .languages {
+        background-image: url(../Images/Background/modern-alternative.png);
+        background-repeat: no-repeat;
+    }
+}

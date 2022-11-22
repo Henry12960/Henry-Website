@@ -1,0 +1,95 @@
+#section-divider-top {
+    margin: 0;
+    height: 10px;
+    background-color: beige;
+    box-shadow: 0px 0px 10px;
+}
+
+#section-divider-bottom {
+    border: none;
+    margin: 0px;
+    height: 10px;
+    background-color: beige;
+    box-shadow: 0px 0px 5px;
+}
+
+@media screen and (min-width: 320px) {
+
+    #header-hr {
+        border: none;
+        height: 2px;
+        width: 35vh;
+        background-color: white;
+        margin-top: 2px;
+    }
+
+    #hr-content {
+        border: none;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        height: 2px;
+        width: 25vh;
+        background-color: black;
+    }
+
+    #hr-languages {
+        margin: 0px;
+        border: none;
+        height: 3px;
+        width: 20vh;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    #header-hr {
+        height: 2px;
+        width: 50vh;
+        background-color: white;
+    }
+
+    #hr-content {
+        height: 2px;
+        width: 5em;
+        background-color: black;
+    }
+
+    #hr-languages {
+        height: 3px;
+        width: 20vh;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    #l-containers-hr {
+        height: 2px;
+        width: 15vh;
+        background-color: black;
+        margin-top: 20px;
+    }
+
+    hr {
+        margin: 0px;
+        border: none;
+    }
+}
+
+@media  screen and (min-width: 768px) {
+
+    #hr-right {
+        height: 40vh;
+        width: 1em;
+        background-color: black;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+
+    #hr-right {
+        height: 40vh;
+        width: 0.6em;
+        background-color: black;
+    }
+}
